@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFRelationTests", "EFRelati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFRelations.Test", "EFRelations.Test\EFRelations.Test.csproj", "{D722F599-B883-4452-8E3B-2DABC79C0D72}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "localPackages", "localPackages", "{70ACF0B1-0710-43FB-8565-1E043478B0D5}"
+	ProjectSection(SolutionItems) = preProject
+		ADF.Volume.1.0.0-Alpha-24313.rar = ADF.Volume.1.0.0-Alpha-24313.rar
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
