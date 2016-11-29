@@ -1,0 +1,11 @@
+In Packagem Manager Console we can work with Nuget package directly
+In the top of the windows, select the project you wish to work on.
+
+run command "get-module "
+This shows you the currently loaded functionality.
+Our module is called ADF.Common.Tools.
+
+If ADF.Common.Tools is loaded, 
+you can perform certain maintenance tasks liking updating reference hint path to the correct ADF Volume.
+
+More info as maintenance tasks are made availible.
