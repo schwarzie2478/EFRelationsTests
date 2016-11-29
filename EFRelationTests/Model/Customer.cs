@@ -13,6 +13,6 @@ namespace EFRelationTests.Model
         public string LastName { get; set; }
         public DateTime RegisteredSince { get; set; }
         public DateTime BirthDay { get; set; }
-        public virtual List<Order> Orders { get; set; }
+        public virtual Order Order { get; set; }
     }
 }

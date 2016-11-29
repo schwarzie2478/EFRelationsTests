@@ -19,7 +19,7 @@ namespace EFRelationTests.Repositories
 
             HasRequired(o => o.ProcessingTicket)
             .WithRequiredPrincipal(p => p.Order);
-            HasRequired<Customer>(o => o.Customer).WithMany(c => c.Orders).HasForeignKey(o => o.Customer_Id);
+            HasRequired<Customer>(o => o.Customer).WithOptional(c => c.Order);
         }
     }
 }

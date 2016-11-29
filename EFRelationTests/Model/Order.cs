@@ -14,6 +14,5 @@ namespace EFRelationTests.Model
         public virtual List<OrderLine> OrderLines { get; set; }
         public virtual ProcessingTicket ProcessingTicket { get; set; }
         public virtual Customer Customer { get; set;}
-        public Guid Customer_Id { get;  set; }
     }
 }

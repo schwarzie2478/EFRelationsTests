@@ -55,8 +55,8 @@ namespace EFRelations.Test
             var result = orepo.GetAll();
             Assert.IsInstanceOfType(result, typeof(List<Order>));
             Assert.IsTrue(result.Count > 0);
-            var newResult = Mocks.Factory.GetNewCustomerRepo().GetAll()[0].Orders;
-            Assert.IsTrue(newResult.Count > 0);
+            var newResult = Mocks.Factory.GetNewCustomerRepo().GetAll()[0].Order;
+            Assert.IsTrue(newResult.OrderLines.Count> 0);
 
         }
         [TestMethod]
