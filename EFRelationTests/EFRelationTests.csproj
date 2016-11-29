@@ -36,10 +36,6 @@
     <Reference Include="ADF.Data.Repositories.EF">
       <HintPath>..\packages\ADF.Volume.1.0.0-Alpha-24313\lib\NET40\ADF.Data.Repositories.EF.dll</HintPath>
     </Reference>
-    <Reference Include="ADF.System, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>ADF.Volume.1.0.0-Alpha-24313\lib\NET40\ADF.System.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Common.Logging">
       <HintPath>..\packages\ADF.Volume.1.0.0-Alpha-24313\lib\NET40\Common.Logging.dll</HintPath>
     </Reference>

@@ -31,7 +31,7 @@ namespace EFRelations.Test
         }
 
         [TestMethod]
-        public void TestGetFropRepo()
+        public void TestGetFromRepo()
         {
             var repo = Mocks.Factory.GetOrderRepo();
             var result = repo.GetAll();

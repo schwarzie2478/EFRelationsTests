@@ -12,7 +12,7 @@ namespace EFRelationTests.Repositories
 {
     public class AppContext: BaseContext<AppContext>
     {
-        public AppContext():base(new CurrentPrincipalIdentityProvider())
+        public AppContext():base(new CurrentPrincipalIdentityProvider(),"EntityModel")
         {
             Database.SetInitializer(new DropCreateDatabaseAlways< AppContext>());
             
