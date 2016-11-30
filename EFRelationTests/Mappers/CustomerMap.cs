@@ -1,5 +1,7 @@
 ﻿using System;
 using AutoMapper;
+using EFRelationTests.Model;
+using EFRelationTests.Contracts;
 
 namespace EFRelationTests.Mappers
 {
@@ -7,7 +9,8 @@ namespace EFRelationTests.Mappers
     {
         protected override void Configure()
         {
-            throw new NotImplementedException();
+            Mapper.CreateMap<Customer, CustomerDto>();
+            Mapper.CreateMap<CustomerDto, Customer>();
         }
     }
 }
