@@ -36,6 +36,10 @@
     <Reference Include="ADF.Data.Repositories.EF">
       <HintPath>..\packages\ADF.Volume.1.0.0-Alpha-24313\lib\NET40\ADF.Data.Repositories.EF.dll</HintPath>
     </Reference>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Common.Logging">
       <HintPath>..\packages\ADF.Volume.1.0.0-Alpha-24313\lib\NET40\Common.Logging.dll</HintPath>
     </Reference>
@@ -58,6 +62,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\CustomerDto.cs" />
+    <Compile Include="Contracts\OrderDto.cs" />
+    <Compile Include="Contracts\OrderLineDto.cs" />
+    <Compile Include="Contracts\ProcessingTicketDto.cs" />
+    <Compile Include="Mappers\AutomapperConfiguration.cs" />
+    <Compile Include="Mappers\CustomerMap.cs" />
+    <Compile Include="Mappers\OrderMap.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Order.cs" />
